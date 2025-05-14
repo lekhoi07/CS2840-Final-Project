@@ -6,4 +6,4 @@ Files:
 
 **visualize.py**: contains function definitions to create plots
 
-**script.R**: run this to convert Seurat object into a .h5ad file. Necessary for converting Wessel lab scRNA-seq data into a form that integrates easily with Python
+**script.R**: run this to convert Seurat object into a .h5ad file. Necessary for converting Wessel lab scRNA-seq data into a form that integrates easily with Python. The dataset can be downloaded as an Seurat object in GEO under accession number GSE149221.
