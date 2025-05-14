@@ -1,0 +1,7 @@
+library(Seurat)
+library(SeuratData)
+library(SeuratDisk)
+data <- readRDS("C:/Users/Khoi/Desktop/cs2840/final/GSE149221_SpInteg.rds")
+data <- UpdateSeuratObject(data)
+SaveH5Seurat(data, filename = "sp_data.h5Seurat")
+Convert("sp_data.h5Seurat", dest = "h5ad")
